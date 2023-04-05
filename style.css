@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-image: url(images/beach-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* padding: 16px 64px; */
+}
+/* .bg{
+  background-image: url(images/beach-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100%;
+} */
+li{
+  list-style: none;
+  padding: 8px 32px;
+}
+a{
+  text-decoration: none;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 32px 64px;
+  /* background-color: rgba(37, 37, 37, 0.25); */
+}
+ul{
+  display: flex;
+  justify-content: space-between;
+}
+.nav-btn{
+  color: #f5f5f5;
+  font-weight: 600;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+.hero{
+  margin: 0px 98px;
+  padding: 16px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.hl{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 320px;
+
+}
+.headline{
+  color: #f5f5f5;
+  font-size: 64px;
+  padding: 8px 0px;
+}
+.tagline{
+  color: #f5f5f5;
+  font-weight: 500;
+  font-size: 24px;
+}
+.personal-pic{
+  height: 250px;
+
+}
